@@ -2,7 +2,7 @@ import logging
 
 def setup_logging():
     logging.basicConfig(
-        filename="quiz_log.log",
+        filename="quiz.log",
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s"
     )
